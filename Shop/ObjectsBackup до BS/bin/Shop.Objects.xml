@@ -1,0 +1,536 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Shop.Objects</name>
+    </assembly>
+    <members>
+        <member name="T:IIS.Shop.Order">
+            <summary>
+            Order.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Order.Status">
+            <summary>
+            Status.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Order.ShipmentDate">
+            <summary>
+            ShipmentDate.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Order.PaymentDate">
+            <summary>
+            PaymentDate.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Order.TotalSum">
+            <summary>
+            TotalSum.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Order.Manager">
+            <summary>
+            Order.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Order.OrderItem">
+            <summary>
+            Order.
+            </summary>
+        </member>
+        <member name="T:IIS.Shop.Order.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Order.Views.OrderE">
+            <summary>
+            "OrderE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Order.Views.OrderL">
+            <summary>
+            "OrderL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Shop.Storehouse">
+            <summary>
+            Storehouse.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Storehouse.Number">
+            <summary>
+            Number.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Storehouse.Address">
+            <summary>
+            Address.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Storehouse.Storekeeper">
+            <summary>
+            Storehouse.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Storehouse.StoreProduct">
+            <summary>
+            Storehouse.
+            </summary>
+        </member>
+        <member name="T:IIS.Shop.Storehouse.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Storehouse.Views.StorehouseE">
+            <summary>
+            "StorehouseE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Storehouse.Views.StorehouseL">
+            <summary>
+            "StorehouseL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Shop.OrderStatus">
+            <summary>
+            Order status.
+            </summary>
+        </member>
+        <member name="F:IIS.Shop.OrderStatus.New">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IIS.Shop.OrderStatus.Paid">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IIS.Shop.OrderStatus.Canceled">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:IIS.Shop.PositionList">
+            <summary>
+            Position list.
+            </summary>
+        </member>
+        <member name="F:IIS.Shop.PositionList.StoreKeeper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IIS.Shop.PositionList.Manager">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:IIS.Shop.Employee">
+            <summary>
+            Employee.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Employee.Number">
+            <summary>
+            Number.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Employee.LastName">
+            <summary>
+            LastName.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Employee.FirstName">
+            <summary>
+            FirstName.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Employee.MiddleName">
+            <summary>
+            MiddleName.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Employee.PhoneNumber">
+            <summary>
+            PhoneNumber.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Employee.Email">
+            <summary>
+            Email.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Employee.Position">
+            <summary>
+            Position.
+            </summary>
+        </member>
+        <member name="T:IIS.Shop.Employee.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Employee.Views.EmployeeE">
+            <summary>
+            "EmployeeE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Employee.Views.EmployeeL">
+            <summary>
+            "EmployeeL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Shop.Product">
+            <summary>
+            Product.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Product.ProductCode">
+            <summary>
+            ProductCode.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Product.Name">
+            <summary>
+            Name.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Product.Measure">
+            <summary>
+            Measure.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Product.Description">
+            <summary>
+            Description.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Product.Price">
+            <summary>
+            Price.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Product.Weight">
+            <summary>
+            Weight.
+            </summary>
+        </member>
+        <member name="T:IIS.Shop.Product.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Product.Views.ProductE">
+            <summary>
+            "ProductE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Product.Views.ProductL">
+            <summary>
+            "ProductL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Shop.InvoiceItem">
+            <summary>
+            Invoice item.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.InvoiceItem.Amount">
+            <summary>
+            Amount.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.InvoiceItem.Weight">
+            <summary>
+            Weight.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.InvoiceItem.Price">
+            <summary>
+            Price.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.InvoiceItem.TotalSum">
+            <summary>
+            TotalSum.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.InvoiceItem.Product">
+            <summary>
+            Invoice item.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.InvoiceItem.Invoice">
+            <summary>
+            мастеровая ссылка на шапку IIS.Shop.Invoice.
+            </summary>
+        </member>
+        <member name="T:IIS.Shop.InvoiceItem.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.InvoiceItem.Views.InvoiceItemE">
+            <summary>
+            "InvoiceItemE" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Shop.DetailArrayOfInvoiceItem">
+            <summary>
+            Detail array of InvoiceItem.
+            </summary>
+        </member>
+        <member name="M:IIS.Shop.DetailArrayOfInvoiceItem.#ctor(IIS.Shop.Invoice)">
+            <summary>
+            Construct detail array.
+            </summary>
+            <summary>
+            Returns object with type InvoiceItem by index.
+            </summary>
+            <summary>
+            Adds object with type InvoiceItem.
+            </summary>
+        </member>
+        <member name="T:IIS.Shop.OrderItem">
+            <summary>
+            Order item.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.OrderItem.Amount">
+            <summary>
+            Amount.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.OrderItem.PriceWTaxes">
+            <summary>
+            PriceWTaxes.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.OrderItem.TotalSum">
+            <summary>
+            TotalSum.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.OrderItem.Product">
+            <summary>
+            Order item.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.OrderItem.Order">
+            <summary>
+            мастеровая ссылка на шапку IIS.Shop.Order.
+            </summary>
+        </member>
+        <member name="T:IIS.Shop.OrderItem.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.OrderItem.Views.OrderItembugfix">
+            <summary>
+            "OrderItembugfix" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.OrderItem.Views.OrderItemE">
+            <summary>
+            "OrderItemE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.OrderItem.Views.OrderItemInOrderL">
+            <summary>
+            "OrderItemInOrderL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Shop.DetailArrayOfOrderItem">
+            <summary>
+            Detail array of OrderItem.
+            </summary>
+        </member>
+        <member name="M:IIS.Shop.DetailArrayOfOrderItem.#ctor(IIS.Shop.Order)">
+            <summary>
+            Construct detail array.
+            </summary>
+            <summary>
+            Returns object with type OrderItem by index.
+            </summary>
+            <summary>
+            Adds object with type OrderItem.
+            </summary>
+        </member>
+        <member name="T:IIS.Shop.Document">
+            <summary>
+            Document.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Document.Number">
+            <summary>
+            Number.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Document.CreateDate">
+            <summary>
+            CreateDate.
+            </summary>
+        </member>
+        <member name="T:IIS.Shop.Document.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Document.Views.DocumentE">
+            <summary>
+            "DocumentE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Document.Views.DocumentL">
+            <summary>
+            "DocumentL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Shop.InvoiceStatus">
+            <summary>
+            Invoice status.
+            </summary>
+        </member>
+        <member name="F:IIS.Shop.InvoiceStatus.New">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IIS.Shop.InvoiceStatus.Issued">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IIS.Shop.InvoiceStatus.Paused">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IIS.Shop.InvoiceStatus.Ready">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IIS.Shop.InvoiceStatus.Shipped">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:IIS.Shop.StoreProduct">
+            <summary>
+            Store product.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.StoreProduct.Amount">
+            <summary>
+            Amount.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.StoreProduct.Product">
+            <summary>
+            Store product.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.StoreProduct.Storehouse">
+            <summary>
+            мастеровая ссылка на шапку IIS.Shop.Storehouse.
+            </summary>
+        </member>
+        <member name="T:IIS.Shop.StoreProduct.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.StoreProduct.Views.StoreProductE">
+            <summary>
+            "StoreProductE" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Shop.DetailArrayOfStoreProduct">
+            <summary>
+            Detail array of StoreProduct.
+            </summary>
+        </member>
+        <member name="M:IIS.Shop.DetailArrayOfStoreProduct.#ctor(IIS.Shop.Storehouse)">
+            <summary>
+            Construct detail array.
+            </summary>
+            <summary>
+            Returns object with type StoreProduct by index.
+            </summary>
+            <summary>
+            Adds object with type StoreProduct.
+            </summary>
+        </member>
+        <member name="T:IIS.Shop.Invoice">
+            <summary>
+            Invoice.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Invoice.Status">
+            <summary>
+            Status.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Invoice.ShipmentDateTime">
+            <summary>
+            ShipmentDateTime.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Invoice.TotalSum">
+            <summary>
+            TotalSum.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Invoice.TotalWeight">
+            <summary>
+            TotalWeight.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Invoice.Note">
+            <summary>
+            Note.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Invoice.CustomerName">
+            <summary>
+            CustomerName.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Invoice.Order">
+            <summary>
+            Invoice.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Invoice.ResponsiblePerson">
+            <summary>
+            Invoice.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Invoice.InvoiceItem">
+            <summary>
+            Invoice.
+            </summary>
+        </member>
+        <member name="T:IIS.Shop.Invoice.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Invoice.Views.InvoiceE">
+            <summary>
+            "InvoiceE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Shop.Invoice.Views.InvoiceL">
+            <summary>
+            "InvoiceL" view.
+            </summary>
+        </member>
+    </members>
+</doc>

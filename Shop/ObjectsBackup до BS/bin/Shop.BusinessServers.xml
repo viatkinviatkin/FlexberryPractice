@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Shop.BusinessServers</name>
+    </assembly>
+    <members>
+        <member name="T:IIS.Shop.OrderItemBS">
+            <summary>
+            OrderItemBS.
+            </summary>
+        </member>
+    </members>
+</doc>

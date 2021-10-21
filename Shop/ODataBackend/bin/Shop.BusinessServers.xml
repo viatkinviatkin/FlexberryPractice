@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Shop.BusinessServers</name>
+    </assembly>
+    <members>
+        <member name="T:IIS.Shop.OrderItemBS">
+            <summary>
+            OrderItemBS.
+            </summary>
+        </member>
+        <member name="T:IIS.Shop.OrderBS">
+            <summary>
+            OrderBS.
+            </summary>
+        </member>
+        <member name="M:IIS.Shop.OrderBS.changeOrderStatusPaid(IIS.Shop.Order)">
+            <summary>
+            Перевод заказа в статус "Оплачено"
+            </summary>
+            <param name="UpdatedObject">Заказ</param>
+            <returns>Список измененных объектов (заказ + товары на складе)</returns>
+        </member>
+    </members>
+</doc>
